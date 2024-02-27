@@ -21,7 +21,7 @@ trait TimestampableMethods
     /**
      * Returns createdAt value.
      *
-     * @return \DateTime
+     * @return ?\DateTime
      */
     public function getCreatedAt()
     {
@@ -31,7 +31,7 @@ trait TimestampableMethods
     /**
      * Returns updatedAt value.
      *
-     * @return \DateTime
+     * @return ?\DateTime
      */
     public function getUpdatedAt()
     {
